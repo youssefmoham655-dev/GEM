@@ -91,11 +91,13 @@ a{
     align-items:center;
     flex-direction:column;
     color:gold;
+    gap:25px;
 }
 .welcome{
     width:1000px;
     border:gold solid;
     border-radius:8px;
+    padding:8px;
 }
 .wlcomecpntent{
     display:flex;
@@ -117,4 +119,17 @@ a{
     object-fit:cover;
     border-radius:8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+.images{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:8px;
+}
+#hyper{
+    color:rgb(255, 236, 130);
+}
+#hyper:hover{
+    color:#7192e7;
 }
