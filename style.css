@@ -198,7 +198,7 @@ a{
 .textmeet h2 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
-    color: rgb(189, 50, 50);
+    color: gold;
     text-align: center;
 }
 
@@ -294,52 +294,14 @@ a{
     margin-top: 10px;
 }
 
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .flip-card {
-        width: 200px;
-        height: 250px;
-    }
-
-    .scientist-img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .Meet-the-team {
-        margin: 40px 40px;
-    }
-}
-
-@media (max-width: 768px) {
-    .flip-card {
-        width: 180px;
-        height: 220px;
-    }
-
-    .scientist-img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .Meet-the-team {
-        margin: 30px 20px;
-        padding: 30px 15px;
-    }
-
-    .textmeet h2 {
-        font-size: 24px;
-    }
-
-    .flip-card-back .description {
-        font-size: 12px;
-    }
-
-    .flip-card-back .expertise {
-        font-size: 11px;
-    }
-}
-.kunafa{
-    font-family: 'Courier New', Courier, monospace;
-    text-align: left;
+.logo-area-footer2{
+    display:flex;
+    background-color:rgb(53, 53, 53);
+    width:100%;
+    height:200px;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:center;
+    padding:5px 100px;
+    margin-top:100px;
 }
